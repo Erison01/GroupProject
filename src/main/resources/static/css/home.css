@@ -1,0 +1,41 @@
+
+body {
+    background-image: url("../Img/1504574.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkgoldenrod;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+h1 {
+    color: darkgoldenrod;
+    font-family: "Arial";
+    font-size: 30px;
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30em;
+    animation: type 8s steps(60, end);
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
